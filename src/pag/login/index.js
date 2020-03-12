@@ -1,7 +1,7 @@
 import React from "react";
 //import { Formik } from "formik";
 //import { useHistory, Redirect } from "react-router-dom";
-import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 // @utilities
 //import { useAuth } from "../../utilities/useAuth";
 import { Wrapper } from "./styles";

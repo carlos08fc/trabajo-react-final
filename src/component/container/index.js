@@ -1,19 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";
 // @styles
-const HeaderContainer = ({ title }) => {
-  return (
-    <div>
-      <h3>{title}</h3>
-    </div>
-  );
-};
 
-const ItemContainer = ({ title, child }) => {
+export default props => {
   return (
     <div>
-      <HeaderContainer>{title}</HeaderContainer>
-      <div>{child}</div>
+      <h3>{props.title}</h3>
+      {props.children}
     </div>
   );
 };
-export default ItemContainer;
