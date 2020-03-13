@@ -11,6 +11,7 @@ import Preg2 from "./pag/encuesta/pregunta2";
 import Preg3 from "./pag/encuesta/pregunta3";
 import Preg4 from "./pag/encuesta/pregunta1";
 import Preg5 from "./pag/encuesta/pregunta5";
+import Fro from "./pag/encuesta/form";
 
 //export const AuthContext = React.createContext();
 
@@ -24,6 +25,7 @@ export default function App() {
       <Route path="/encuesta/3" component={Preg3} />
       <Route path="/encuesta/4" component={Preg4} />
       <Route path="/encuesta/5" component={Preg5} />
+      <Route path="/encuesta/form" component={Fro} />
     </Switch>
   );
 }
